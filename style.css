@@ -55,9 +55,15 @@ h1 {
     width: 100%;
 }
 
+/* Ajustes para el recuadro donde muestra el valor del seguro */
 .valor-seguro {
-    background-color: #f0f0f0;
-    padding: 4px;
+    color: beige;
+    background-color: #5873ad;
+    padding: 4px; /* Ajusta el relleno vertical */
+    padding-left: 0px; /* Ajusta el relleno izquierdo */
+    padding-right: 6px; /* Ajusta el relleno derecho */
     margin-top: 10px;
-    text-align: center;
+    margin-left: 4px;
+    text-align: left;
+    display: flex;
 }
