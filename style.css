@@ -1,4 +1,4 @@
-/* Estilos para el hero */
+/* Estilos para la hero */
 .hero {
     width: 100%;
     max-height: 40px;
@@ -13,7 +13,7 @@
 
 /* Estilos para la imagen del banner */
 .hero img {
-    max-width: 100%;
+    width: 100%;
     max-height: 200px;
     object-fit: cover;
 }
@@ -36,17 +36,21 @@ h1 {
     color: rgb(200, 200, 200);
 }
 
+/* Ajustes para los contenedores de entrada y curso */
 .input-container, .course-container {
     display: flex;
     margin-bottom: 10px;
 }
 
+/* Estilos para las etiquetas de entrada y curso */
 .input-container label, .course-container label {
     flex: 1;
     text-align: right;
+    padding-right: 10px;
 }
 
-.input-container input, select {
+/* Ajustes para los campos de entrada y select */
+.input-container input, .course-container select {
     flex: 2;
     width: 100%;
 }
