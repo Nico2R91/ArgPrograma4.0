@@ -1,21 +1,44 @@
-/* Estilos para el hero */
+/* Estilos generales */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el hero y la imagen del banner */
 .hero {
     width: 100%;
     max-height: 40px;
-    position: absolute;
-    top: 0;
-   /* z-index: 1; */
     background-color: #333;
     color: white;
     text-align: center;
     padding: 10px 0;
+    position: absolute;
+    top: 0;
+    z-index: 1;
 }
 
-/* Estilos para la imagen del banner */
 .hero img {
     width: 100%;
     max-height: 300px;
     object-fit: cover;
+}
+
+/* Ajustes para el carrusel */
+#myCarousel, .carousel-inner, .carousel-inner .item {
+    width: 100%;
+}
+
+.carousel-inner {
+    display: flex;
+}
+
+.carousel-inner .item img {
+    width: 100%;
+    height: auto;
 }
 
 /* Ajustes para el formulario y otros estilos */
@@ -24,13 +47,6 @@
     margin-top: 250px;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
 
 h1 {
     color: rgb(200, 200, 200);
@@ -55,13 +71,12 @@ h1 {
     width: 100%;
 }
 
-/*Ajustes para el recuadro donde muestra el valor del seguro */
+/* Ajustes para el recuadro que muestra el valor del seguro */
 .valor-seguro {
     color: beige;
     background-color: #5873ad;
-    padding: 3px; 
+    padding: 3px;
     text-align: center;
-    display: flex inline-block;
     width: 100%;
     margin-left: 65px;
 }
