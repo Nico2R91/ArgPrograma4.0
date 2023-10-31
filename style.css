@@ -1,10 +1,10 @@
-/* Estilos para la hero */
+/* Estilos para el hero */
 .hero {
     width: 100%;
     max-height: 40px;
     position: absolute;
     top: 0;
-    z-index: 1;
+   /* z-index: 1; */
     background-color: #333;
     color: white;
     text-align: center;
@@ -36,34 +36,32 @@ h1 {
     color: rgb(200, 200, 200);
 }
 
-/* Ajustes para los contenedores de entrada y curso */
-.input-container, .course-container {
+/* Ajustes para los contenedores de entrada y seguro */
+.input-container, .seguro-container, .valor-seguro-container {
     display: flex;
     margin-bottom: 10px;
 }
 
-/* Estilos para las etiquetas de entrada y curso */
-.input-container label, .course-container label {
+/* Estilos para las etiquetas de entrada y seguro */
+.input-container label, .seguro-container label {
     flex: 1;
     text-align: right;
     padding-right: 10px;
 }
 
 /* Ajustes para los campos de entrada y select */
-.input-container input, .course-container select {
+.input-container input, .seguro-container select, .valor-seguro {
     flex: 2;
     width: 100%;
 }
 
-/* Ajustes para el recuadro donde muestra el valor del seguro */
+/*Ajustes para el recuadro donde muestra el valor del seguro */
 .valor-seguro {
     color: beige;
     background-color: #5873ad;
-    padding: 4px; /* Ajusta el relleno vertical */
-    padding-left: 0px; /* Ajusta el relleno izquierdo */
-    padding-right: 6px; /* Ajusta el relleno derecho */
-    margin-top: 10px;
-    margin-left: 4px;
-    text-align: left;
-    display: flex;
+    padding: 3px; 
+    text-align: center;
+    display: flex inline-block;
+    width: 100%;
+    margin-left: 65px;
 }
