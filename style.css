@@ -7,13 +7,18 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
+/* Estilos para el navbar */
+#navbar {
+    background-color: rgba(255, 255, 255, 0.158); 
+    transition: background-color 0.2s; /* Agregar una transición suave */
+}
 
 /* Estilos para el hero y la imagen del banner */
 .hero {
     width: 100%;
     max-height: 40px;
-    background-color: #333;
-    color: white;
+    /*background: #333;
+    color: white;*/
     text-align: center;
     padding: 10px 0;
     position: absolute;
@@ -30,26 +35,25 @@ body {
 /* Ajustes para el carrusel */
 #myCarousel, .carousel-inner, .carousel-inner .item {
     width: 100%;
-}
-
-.carousel-inner {
     display: flex;
 }
 
 .carousel-inner .item img {
-    width: 100%;
-    height: auto;
-}
+        max-width: 100%;
+        max-height: 450px; 
+        object-fit: cover;
+    }
+    
+
 
 /* Ajustes para el formulario y otros estilos */
 .content {
     text-align: center;
-    margin-top: 250px;
+    margin-top: 300px;
 }
 
-
 h1 {
-    color: rgb(200, 200, 200);
+    position:sticky;
 }
 
 /* Ajustes para los contenedores de entrada y seguro */
@@ -74,7 +78,7 @@ h1 {
 /* Ajustes para el recuadro que muestra el valor del seguro */
 .valor-seguro {
     color: beige;
-    background-color: #5873ad;
+    background: #5873ad;
     padding: 3px;
     text-align: center;
     width: 100%;
