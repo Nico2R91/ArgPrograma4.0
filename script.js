@@ -7,7 +7,7 @@ navbar.addEventListener("mouseover", function() {
 });
 
 navbar.addEventListener("mouseout", function() {
-    navbar.style.backgroundColor = "rgba(255, 255, 255, 0.7)"; // Restaurar la opacidad al 70%
+    navbar.style.backgroundColor = "rgba(255, 255, 255, 0)"; // Restaurar la opacidad al 70%
 });
 
 
