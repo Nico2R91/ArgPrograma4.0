@@ -1,5 +1,6 @@
 // Obtén el elemento del navbar por su ID
 var navbar = document.getElementById("navbar");
+var search = document.getElementById("search");
 
 // Agrega un evento para cambiar la opacidad al pasar el cursor por encima
 navbar.addEventListener("mouseover", function() {
@@ -10,7 +11,13 @@ navbar.addEventListener("mouseout", function() {
     navbar.style.backgroundColor = "rgba(255, 255, 255, 0)"; // Restaurar la opacidad al 70%
 });
 
+search.addEventListener("mouseover", function() {
+    search.style.backgroundColor = "rgba(255, 255, 255, 1)"; 
+});
 
+search.addEventListener("mouseout", function() {
+    search.style.backgroundColor = "rgba(255, 255, 255, 0)"; // Restaurar la opacidad al 70%
+});
 
 document.getElementById("Cotiza_tu_seguro").addEventListener("change", function () {
   var selectedOption = this.value;
